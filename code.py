@@ -128,7 +128,7 @@ def get_edit_distance_score(string1, string2):
 def load_patent_data():
     
     # Link to `patent data` csv in L3 Data Scientist Associate Coding Test`
-    url = 'https://drive.google.com/file/d/1nmrF4xmH0KEbH2i2BYzUe7QZke2r5jOa/view?usp=sharing'
+    url = ''
     url ='https://drive.google.com/uc?id=' + url.split('/')[-2]
     return pd.read_csv(url)
 
